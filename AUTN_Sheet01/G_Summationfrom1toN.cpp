@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-    int n;
+    long long n,r;
     cin>>n;
-    int r = (n*(n+1))/2;
+     r = (n*(n+1))/2;
     cout<<r<<endl;
 
     return 0;
