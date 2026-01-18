@@ -12,4 +12,5 @@ int main() {
         if (a[i] >= a[k - 1] && a[i] > 0) ans++;
     }
     cout << ans << '\n';
+    return 0;
 }
