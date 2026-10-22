@@ -33,10 +33,10 @@ int main()
      int ans=0;
 
     for(int col = 0; col < d; col++){
-        if(free[col]==1){
-            int len=1;
+        if(free[col]== 1){
+            int len = 1;
             for(int col2 = col + 1; col2 < d; col2++){
-                if(free[col2]==1){
+                if(free[col2]== 1){
                     len++;
                 }
                 else{
