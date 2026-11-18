@@ -11,7 +11,7 @@ int main()
         int index = str[i]-'a';
         frq[index]++;
     }
-    for(int i=0;i<26;i++){
+    for(int i=0;i<n;i++){
         printf("%c = %d\n", 'a'+i,frq[i]);
 
     }
